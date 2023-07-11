@@ -50,7 +50,9 @@ In 'Raboot Dash', you have to control Raboot, Galar's Fire starter Scorbunny's f
 
 * Use left and right keys to switch lanes in order to dodge bots and wood blocks. For mobile users, tap on Raboot to have him switch lanes.
 
-* Use space button to launch an Ember attack on Badbots and wood blocks. (Note: This attack can destroy obstacles (Badbots and wooden blocks) in a line). For mobile users, use the button with letter E to launch the attack.
+* Use space button to launch an Ember attack on Badbots and wood blocks. 
+For mobile users, use the button with letter E to launch the attack.
+Note: This attack can destroy obstacles (Badbots and wooden blocks) in a line. 
 
 * If you get hit by a BadBot or a block, the game immediately ends, so avoid them or blast them off!
 
