@@ -1,0 +1,167 @@
+@keyframes rotate
+{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes nav-link-highlight
+{
+    from {filter: drop-shadow(0px 0px 0px white);}
+    to {filter: drop-shadow(0px 0px 20px white);}
+}
+
+body
+{
+    margin: 0 0 0;
+    white-space: nowrap;
+    overflow-x: hidden;
+}           
+
+img#stars
+{   
+    filter: drop-shadow(0px 0px 5px white);
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#start_nav_interface
+{
+    position: fixed;
+    
+    background-color: lightblue; 
+        
+    overflow-x: auto; 
+    overflow-y: hidden; 
+    
+    z-index: 3; 
+    
+    width: 100%;
+}
+
+.nav
+{
+    
+    position: relative;
+    bottom: 70px;
+    
+    background-color: #00c3f5;
+    
+    font: bold 20px "Times New Roman", serif;
+    
+    text-align: center;
+    color: white;
+    padding: 10px 40px;
+    user-select: none;
+    
+    border: 3px solid #0018eb;
+    border-radius: 10px; 
+    
+    margin-left: 50px;
+    
+}
+
+.nav a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:active
+{
+    color: #0018eb;
+}
+
+.nav:hover
+{
+    color: #0018eb;
+    
+    animation-name: nav-link-highlight;
+    animation-duration: 0.25s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#inst_id
+{
+    
+    position: relative; 
+    top: 162px; 
+    height: 750px;
+    
+    background-image: url('Dark_Background.svg'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    user-select: none;
+    white-space: nowrap;
+    
+    overflow-x: auto;
+}
+
+#end_nav_interface
+{
+    position: relative;
+    
+    background-color: #66c2ff; 
+    
+    color: white; 
+    font: bold 20px 'Times New Roman', serif; 
+    
+    z-index: 1;
+    
+    overflow-x: auto;
+
+}
+
+.end-nav
+{
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.end-nav:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+
+.end-nav:active
+{
+    color: #0018eb;
+    text-decoration: underline;
+}
+
+span#web-view
+{ 
+    position: absolute;
+    left: 1000px;
+    bottom: 40px;
+}
+
+#web-view-count
+{
+    
+    background-color: dodgerblue;
+    
+    width: fit-content;
+    height: 35px;
+    
+    text-align: center;
+    justify-content: middle;
+    letter-spacing: 5px;
+    font: bold 20px "Times New Roman", serif;
+    
+    border: 2px solid navy;
+    border-radius: 5px;
+}
+
+/*
+{
+    border: 2px solid green;
+}
+*/
