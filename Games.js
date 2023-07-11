@@ -53,7 +53,7 @@ In 'Raboot Dash', you have to control Raboot, Galar's Fire starter Scorbunny's f
 * Use space button to launch an Ember attack on Badbots and wood blocks. For mobile users, use the button with letter E to launch the attack.
 Note: This attack can destroy obstacles (Badbots and wooden blocks) in a line. 
 
-* If you get hit by a BadBot or a block, the game immediately ends, so avoid them or blast them off!
+* If you get hit by a BadBot or a block, the game immediately ends. So, either avoid them or blast them off!
 
 * Run as far and fast as you can!
 
@@ -104,8 +104,5 @@ raboot_select.onclick = () =>
     fade.appendChild(game);
     fade.appendChild(game_content);
     game_content.innerText = raboot_content;
-    
-    game_content.style.backgroundColor = 'deepskyblue';
-    game_content.style.color = 'darkblue';
 };
 
